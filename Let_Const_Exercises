@@ -1,0 +1,19 @@
+Let/Const Exercises
+
+ES5 to ES2015
+
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+....should be written:
+
+let PI = 3.14;
+PI = 42;
+
+Var creates global variables that can be both reassigned and redeclared. Let can be reassigned but not redeclared, and is only accessible within the code block it was declared in.
+
+Const creates a variable within a code block that cannot be reassigned or redeclared.
+
+Const variables cannot be reassigned, let variables can.
+
+Hoisting refers to how variables in Javascript are lifted to the top of their scope, and noted by the compiler before the rest of the code is compiled. Var variables will be hoisted to the top of rest of the script.
+
